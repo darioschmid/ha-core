@@ -1,6 +1,6 @@
 {
   "domain": "mvv_sbahn_punctuality",
-  "name": "MVV S-Bahn Punctuality",
+  "name": "MVV S-Bahn Train Punctuality",
   "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/mvv_sbahn_punctuality",
   "requirements": ["MVVsBahn==0.0.1"],
