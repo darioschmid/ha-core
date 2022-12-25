@@ -263,6 +263,7 @@ FLOWS = {
         "mqtt",
         "mullvad",
         "mutesync",
+        "mvv_sbahn_punctuality",
         "myq",
         "mysensors",
         "nam",

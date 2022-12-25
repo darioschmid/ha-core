@@ -792,6 +792,7 @@ omit =
     homeassistant/components/mutesync/__init__.py
     homeassistant/components/mutesync/binary_sensor.py
     homeassistant/components/mvglive/sensor.py
+    homeassistant/components/mvv_sbahn_punctuality/sensor.py
     homeassistant/components/mycroft/*
     homeassistant/components/myq/__init__.py
     homeassistant/components/myq/cover.py
