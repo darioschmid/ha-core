@@ -342,7 +342,6 @@ azure-eventhub==5.7.0
 # homeassistant.components.homekit
 base36==0.1.1
 
-# homeassistant.components.mvv_sbahn_punctuality
 # homeassistant.components.scrape
 beautifulsoup4==4.11.1
 

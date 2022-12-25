@@ -3,7 +3,7 @@
   "name": "MVV S-Bahn Punctuality",
   "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/mvv_sbahn_punctuality",
-  "requirements": ["beautifulsoup4==4.11.1"],
+  "requirements": ["MVVsBahn==0.0.1"],
   "ssdp": [],
   "zeroconf": [],
   "homekit": {},

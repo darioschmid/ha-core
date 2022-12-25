@@ -3,6 +3,7 @@ from __future__ import annotations
 
 from datetime import timedelta
 
+import MVVsBahn
 import voluptuous as vol
 
 from homeassistant.components.sensor import (
@@ -70,6 +71,7 @@ class MvvSbahnSensor(SensorEntity):
         """Initialize the sensor."""
         self._line = line
         self._name = name
+        self.data = MVVsBahn.MVVsBahn()
         self._state = None
         self._icon = ICON
 
@@ -98,4 +100,4 @@ class MvvSbahnSensor(SensorEntity):
 
         This is the only method that should fetch new data for Home Assistant.
         """
-        self._attr_native_value = 17
+        self._attr_native_value = self.data.get_punctuality(self._line)
